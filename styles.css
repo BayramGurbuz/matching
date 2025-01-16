@@ -1,0 +1,86 @@
+/* Genel Stiller */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://www.osmtactic.com/assets/Service-Thumbnails/osm-1611217919__ScaleMaxWidthWzc1MF0_CompressedW10.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    /* text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); Yazıya gölge ekleyerek okunabilirlik artırıldı */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85); /* Arka plan şeffaflaştırıldı */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #4e54c8;
+  }
+  
+  /* Form Bölümü */
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background: #4e54c8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #3b3db6;
+  }
+  
+  /* Sonuç Tablosu */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4e54c8;
+    color: #fff;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kişi ve Takım Eşleştirme</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kişi ve Takım Eşleştirme</h1>
+    <div class="input-section">
+      <label for="numPeople">Kişi Sayısı:</label>
+      <input type="number" id="numPeople" min="1" placeholder="Kişi sayısı girin">
+      <label for="numTeams">Takım Sayısı:</label>
+      <input type="number" id="numTeams" min="1" placeholder="Takım sayısı girin">
+      <button id="generateForm">Formları Oluştur</button>
+    </div>
+
+    <div id="forms"></div>
+    <button id="assignTeams" style="display: none;">Takımları Eşleştir</button>
+
+    <div id="result" class="result-section"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
