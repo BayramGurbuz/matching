@@ -1,4 +1,4 @@
-/* Genel Stiller */
+
 body {
   font-family: 'Arial', sans-serif;
   background: url('https://www.osmtactic.com/assets/Service-Thumbnails/osm-1611217919__ScaleMaxWidthWzc1MF0_CompressedW10.jpg') no-repeat center center fixed;
@@ -25,7 +25,7 @@ h1 {
   color: #4e54c8;
 }
 
-/* Form Bölümü */
+/* Forms */
 .input-section {
   margin-bottom: 20px;
 }
@@ -61,7 +61,7 @@ button:hover {
   background: #3b3db6;
 }
 
-/* Sonuç Tablosu */
+/* result table */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -83,7 +83,6 @@ td {
   background-color: #f9f9f9;
 }
 
-/* Yeni Animasyon Stilleri */
 @keyframes fadeIn {
   from {
       opacity: 0;

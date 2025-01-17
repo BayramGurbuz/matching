@@ -53,7 +53,7 @@ document.getElementById('assignTeams').addEventListener('click', () => {
   popup.className = 'match-popup';
   document.body.appendChild(popup);
 
-  // Eşleşmeleri animasyonlu şekilde göster ve tabloya ekle
+  // Eşleşmeleri göster ve tabloya ekle
   const table = document.createElement('table');
   const headerRow = document.createElement('tr');
   headerRow.innerHTML = `
